@@ -18,6 +18,8 @@ def find_the_cheese(array)
   array.each do |a|
     if cheese_types.include?(a)
       found << a
+    else
+      found = nil
     end
   end
   found
