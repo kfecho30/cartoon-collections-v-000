@@ -18,4 +18,5 @@ def find_the_cheese(array)
     if cheese_types.include?(a)
       a
     end
+  end
 end
