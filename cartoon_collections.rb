@@ -17,8 +17,8 @@ def find_the_cheese(array)
   found = ""
   array.each do |a|
     if cheese_types.include?(a)
-      a
+      found << a
     end
   end
-  a
+  found
 end
